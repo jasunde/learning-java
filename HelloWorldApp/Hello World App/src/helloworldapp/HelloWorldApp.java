@@ -5,17 +5,15 @@
  */
 package helloworldapp;
 
-/**
- *
- * @author jasonsunde
- */
 public class HelloWorldApp {
 
     /**
+     * This is how you write a comment in Java.
      * @param args the command line arguments
      */
+	// And here is a single line comment.
     public static void main(String[] args) {
         System.out.println("Hello World!");
     }
-    
+
 }
