@@ -1,6 +1,6 @@
 
 public class Song {
-	String timeSignature;
+	private String timeSignature;
 	String songName;
 	String key;
 	static short instanceCounter;
