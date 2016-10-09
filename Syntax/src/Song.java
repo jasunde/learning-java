@@ -35,16 +35,44 @@ public class Song {
 	}
 
 	public static void main(String[] args) {
-		Song song1 = new Song("foo");
+//		Song song1 = new Song("foo");
+//		
+//		song1.setTimeSignature("4/4");
+//		song1.setKey("A major");
+//		song1.printSong();
+//
+//		Song song2 = new Song("baz");
+//		
+//		song2.setTimeSignature("3/4");
+//		song2.setKey("F# minor");
+//		song2.printSong();
 		
-		song1.setTimeSignature("4/4");
-		song1.setKey("A major");
-		song1.printSong();
-
-		Song song2 = new Song("baz");
+		int x = 0;
 		
-		song2.setTimeSignature("3/4");
-		song2.setKey("F# minor");
-		song2.printSong();
+//		while(x < 10) {
+//			System.out.println("value of x: " + x);
+//			x++;
+//		}
+		
+//		for(x = 0; x < 10; x++) {
+//			if(x == 6) {
+//				continue;
+//			}
+//			System.out.println("value of x: " + x);
+//		}
+		
+//		do{
+//			System.out.println("value of x: " + x);
+//			x++;
+//			if(x == 7) {
+//				break;
+//			}
+//		}while (x < 10);
+		
+		int [] arr = {0,1,2,3,4,5,6,7,8,9};
+		
+		for(int y : arr) {
+			System.out.println("value of x: " + y);
+		}
 	}
 }
