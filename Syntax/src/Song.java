@@ -70,9 +70,8 @@ public class Song {
 //		}while (x < 10);
 		
 		int [] arr = {0,1,2,3,4,5,6,7,8,9};
-		
 		for(int y : arr) {
-			System.out.println("value of x: " + y);
+			System.out.println((y % 2 == 0) ? "value of x: " + y : "That's odd...");
 		}
 	}
 }
