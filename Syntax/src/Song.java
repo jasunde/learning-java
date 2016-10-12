@@ -69,10 +69,19 @@ public class Song {
 //			}
 //		}while (x < 10);
 		
-		int [] arr = {0,1,2,3,4,5,6,7,8,9};
-		for(int y : arr) {
-			Integer a = y;
-			System.out.println(a + " to the power of " + a + " is " + Math.pow(a, a) + ".");
+//		int [] arr = {0,1,2,3,4,5,6,7,8,9};
+//		for(int y : arr) {
+//			Integer a = y;
+//			System.out.println(a + " to the power of " + a + " is " + Math.pow(a, a) + ".");
+//		}
+		
+		Character letter = 'a';
+		int num = 0;
+		
+		for(x = 0; x < 26; x++) {
+			num = Character.digit(letter, 10);
+			System.out.println(num);
 		}
+		
 	}
 }
