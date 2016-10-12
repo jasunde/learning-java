@@ -71,7 +71,8 @@ public class Song {
 		
 		int [] arr = {0,1,2,3,4,5,6,7,8,9};
 		for(int y : arr) {
-			System.out.println((y % 2 == 0) ? "value of x: " + y : "That's odd...");
+			Integer a = y;
+			System.out.println(a + " to the power of " + a + " is " + Math.pow(a, a) + ".");
 		}
 	}
 }
