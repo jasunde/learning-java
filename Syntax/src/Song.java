@@ -75,12 +75,12 @@ public class Song {
 //			System.out.println(a + " to the power of " + a + " is " + Math.pow(a, a) + ".");
 //		}
 		
-		Character letter = 'a';
-		int num = 0;
+		char[] word = { 'h', 'e', 'l', 'l', 'o', ' ', 'w', 'o', 'r', 'l', 'd'};
+		String word1 = "hello world";
+		int l;
 		
-		for(x = 0; x < 26; x++) {
-			num = Character.digit(letter, 10);
-			System.out.println(num);
+		for(x = 0, l = word.length; x < l; x++) {
+			System.out.print(Character.toChars(Character.codePointAt(word1, x)));
 		}
 		
 	}
