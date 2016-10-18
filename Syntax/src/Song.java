@@ -1,3 +1,5 @@
+import java.lang.reflect.Array;
+import java.util.Arrays;
 
 public class Song {
 	private String timeSignature;
@@ -32,6 +34,13 @@ public class Song {
 		System.out.println("Key: " + key);
 		System.out.println("ID: " + id);
 		System.out.print("\n");
+	}
+
+	public static void arrayPowers(int[] arr) {
+		for(int y : arr) {
+			Integer a = y;
+			System.out.println(a + " to the power of " + a + " is " + Math.pow(a, a) + ".");
+		}
 	}
 
 	public static void main(String[] args) {
@@ -69,19 +78,21 @@ public class Song {
 //			}
 //		}while (x < 10);
 		
-//		int [] arr = {0,1,2,3,4,5,6,7,8,9};
-//		for(int y : arr) {
-//			Integer a = y;
-//			System.out.println(a + " to the power of " + a + " is " + Math.pow(a, a) + ".");
+		int[] arr = {9,8,7,6,5,4,3,2,1,0};
+		
+		arrayPowers(arr);
+		
+		Arrays.sort(arr);
+		
+		arrayPowers(arr);
+		
+//		char[] word = { 'h', 'e', 'l', 'l', 'o', ' ', 'w', 'o', 'r', 'l', 'd'};
+//		String word1 = "hello world";
+//		int l;
+//		
+//		for(x = 0, l = word.length; x < l; x++) {
+//			System.out.print(Character.toChars(Character.codePointAt(word1, x)));
 //		}
-		
-		char[] word = { 'h', 'e', 'l', 'l', 'o', ' ', 'w', 'o', 'r', 'l', 'd'};
-		String word1 = "hello world";
-		int l;
-		
-		for(x = 0, l = word.length; x < l; x++) {
-			System.out.print(Character.toChars(Character.codePointAt(word1, x)));
-		}
 		
 	}
 }
