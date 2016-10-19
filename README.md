@@ -4,3 +4,4 @@
 - 10/07/2016: Read about basic operators in Java.
 - 10/13/2016: Read about Strings.
 - 10/17/2016: Did a Kata using Java at codewars.com
+- 10/19/2016: Learned more about Arrays vs ArrayLists vs ArrayDeque
